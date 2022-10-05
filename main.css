@@ -1,0 +1,133 @@
+/* ======= Major fixes starts here======== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Inter', sans-serif;
+   
+}
+/* ======= Major fixes ends here======== */
+
+/* ======= reusables starts here======== */
+:root{
+    --black-color:rgb(30, 30, 30);
+    --white-color:rgb(242, 242, 242);
+}
+/* ======= reusables starts here======== */
+
+/* ======= first section starts here======== */
+.first-section{
+    text-align: center;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.first-section h1{
+    padding:40px 0 10px 0;
+}
+.first-section p{
+    padding: 10px 0;
+    font-size: 35px;
+    font-weight: 500;
+}
+.flipper-btn{
+    background:rgb(153, 153, 153);
+    background-size: cover;
+    width: 350px;
+    font-weight: 700;
+    padding: 22px;
+    border-radius: 10px;
+    margin:0 auto 20px auto;
+}
+.flipper-btn p{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.flipper-btn span{
+    background: var(--white-color);
+    color: var(--black-color);
+    padding: 12px;
+    border-radius:5px;
+   
+}
+/* ======= first section starts here======== */
+
+/* ======= second section starts here======== */
+.second-section{
+   max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    border: 2px solid var(--black-color);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.second-section-cards{
+    padding: 0 5px;
+    margin: 20px 0 40px 0;
+    min-width: 22%;
+   
+}
+.line{
+    border-left: 1px solid var(--black-color);
+}
+.product{
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: 600;
+
+}
+.product .info{
+    line-height: 1.4;
+}
+.product h1{
+    padding:0 10px 20px 0;
+}
+.amount{
+    padding: 10px;
+}
+.amount p{
+    font-weight:600 ;
+}
+.amount span{
+    font-size: 74px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.amount .classic{
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn{
+    margin: 24px 0 40px 0;
+}
+.second-section button{
+    padding: 15px 45px;
+    margin-left: 10px;
+    background: var(--black-color);
+    color: var(--white-color);
+}
+.product-features{
+    padding: 20px 0;
+    font-weight: 600;
+    
+}
+.product-features p{
+    padding: 7px 0;
+    font-size: 16px;
+}.product-features h3{
+    font-size: 18px;
+    padding: 10px 0 15px 0;
+}
+.product-features .icons{
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* ======= second section starts here======== */

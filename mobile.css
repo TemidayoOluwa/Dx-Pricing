@@ -1,0 +1,15 @@
+@media screen and (max-width:590px){
+    .second-section{
+       flex-direction: column;
+       width: 90%;
+       margin:0 auto;
+    }
+    .second-section-cards{
+       padding: 0 70px;
+       
+    }
+    .line{
+        display: none;
+    }
+    
+}
