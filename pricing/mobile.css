@@ -11,5 +11,15 @@
     .line{
         display: none;
     }
-    
+    .flipper-btn{
+        max-width: 90%;
+        padding: 20px;
+    }
+    .flipper-btn p{
+        font-size: 16px;
+    }
+    .flipper-btn span{
+        padding: 10px;
+       
+    }
 }
